@@ -1,4 +1,4 @@
-cask 'firefox-esr' do
+cask 'firefox-esr-45-2-0' do
   version '45.2.0'
   sha256 '789e708ca817ceccfd9075826f16b95023752be0a868abe491c3dc7875e7926c'
 

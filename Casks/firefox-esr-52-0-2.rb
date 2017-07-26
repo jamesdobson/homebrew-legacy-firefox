@@ -1,4 +1,4 @@
-cask 'firefox-esr' do
+cask 'firefox-esr-52-0-2' do
   version '52.0.2'
 
   language 'de' do
