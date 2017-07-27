@@ -6,5 +6,5 @@ cask :v1 => 'firefox-esr-31-5-3' do
   homepage 'https://www.mozilla.org/en-US/firefox/organizations/'
   license :mpl
 
-  app 'Firefox.app'
+  app 'Firefox.app', target: "Firefox #{version}esr"
 end

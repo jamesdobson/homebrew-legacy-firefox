@@ -81,7 +81,7 @@ cask 'firefox-esr-52-2-1' do
   name 'Mozilla Firefox Extended Support Release'
   homepage 'https://www.mozilla.org/firefox/organizations/'
 
-  app 'Firefox.app'
+  app 'Firefox.app', target: "Firefox #{version}esr"
 
   zap delete: [
                 '~/Library/Application Support/Firefox',

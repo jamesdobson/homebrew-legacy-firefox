@@ -7,5 +7,5 @@ cask :v1 => 'firefox-esr-38-0-1' do
   license :mpl
   tags :vendor => 'Mozilla'
 
-  app 'Firefox.app'
+  app 'Firefox.app', target: "Firefox #{version}esr"
 end

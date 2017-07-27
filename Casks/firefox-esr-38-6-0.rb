@@ -7,7 +7,7 @@ cask 'firefox-esr-38-6-0' do
   homepage 'https://www.mozilla.org/en-US/firefox/organizations/'
   license :mpl
 
-  app 'Firefox.app'
+  app 'Firefox.app', target: "Firefox #{version}esr"
 
   zap delete: [
                 '~/Library/Application Support/Firefox',

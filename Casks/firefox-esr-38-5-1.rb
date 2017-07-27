@@ -9,7 +9,7 @@ cask 'firefox-esr-38-5-1' do
   license :mpl
   tags :vendor => 'Mozilla'
 
-  app 'Firefox.app'
+  app 'Firefox.app', target: "Firefox #{version}esr"
 
   zap :delete => [
                   '~/Library/Application Support/Firefox',
