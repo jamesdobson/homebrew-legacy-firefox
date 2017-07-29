@@ -13,7 +13,7 @@ a specific ESR, please consider
 
 ## Prerequisites
 
-Fonts are available through homebrew-cask, which is an "external command" of Homebrew.
+Legacy Firefox is available through homebrew-cask, which is an "external command" of Homebrew.
 So, first you must install [Homebrew](http://brew.sh) and
 [homebrew-cask](https://caskroom.github.io).
 
