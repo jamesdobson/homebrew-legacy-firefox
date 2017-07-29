@@ -1,8 +1,11 @@
 language: ruby
 os: osx
+env:
+  - FF_VERSION=52-2-1
+  - FF_VERSION=45-0-2
 install:
   - brew tap jamesdobson/legacy-firefox
 
 script:
-  - brew cask install firefox-esr-45-0-2
+  - "brew cask install firefox-esr-$FF_VERSION"
 
