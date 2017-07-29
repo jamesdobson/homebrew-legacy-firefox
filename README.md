@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/jamesdobson/homebrew-legacy-firefox.svg?branch=master)](https://travis-ci.org/jamesdobson/homebrew-legacy-firefox)
+
 # homebrew-legacy-firefox
 
 A [Homebrew](https://brew.sh/) Tap that provides the ability to install
