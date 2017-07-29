@@ -1,0 +1,8 @@
+language: ruby
+os: osx
+install:
+  - brew tap jamesdobson/legacy-firefox
+
+script:
+  - brew cask install firefox-esr-45-0-2
+
