@@ -3,7 +3,12 @@
 # homebrew-legacy-firefox
 
 A [Homebrew](https://brew.sh/) Tap that provides the ability to install
-legacy versions of Firefox ESR.
+legacy versions of Firefox ESR. A specific version of Firefox must be specified, and
+the cask will never be updated to point to a newer release: what you ask for is
+what you get. This is useful for environments that depend on a specific release of
+Firefox, e.g. some automated test systems. If you're looking for a cask that tracks
+a specific ESR, please consider
+[tjanson/firefox-esr](https://github.com/tjanson/homebrew-firefox-esr).
 
 
 ## Prerequisites
