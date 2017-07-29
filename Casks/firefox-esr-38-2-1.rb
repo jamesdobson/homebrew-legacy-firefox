@@ -1,4 +1,4 @@
-cask :v1 => 'firefox-esr-38-2-1' do
+cask 'firefox-esr-38-2-1' do
   version '38.2.1'
   sha256 '75a97747fd165571e8104c6de0a9f33f66d11807f65211e3898ead5e92cf83c7'
 
@@ -7,7 +7,6 @@ cask :v1 => 'firefox-esr-38-2-1' do
   name 'Mozilla Firefox'
   homepage 'https://www.mozilla.org/en-US/firefox/organizations/'
   license :mpl
-  tags :vendor => 'Mozilla'
 
   app 'Firefox.app', target: "Firefox #{version}esr"
 
