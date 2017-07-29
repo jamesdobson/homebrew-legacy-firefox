@@ -4,9 +4,8 @@ env:
   - FF_VERSION=52-2-1
   - FF_VERSION=76-4-4
   - FF_VERSION=45-0-2
-install:
-  - brew tap jamesdobson/legacy-firefox
 
 script:
-  - "brew cask install firefox-esr-$FF_VERSION"
+  - "brew cask install Casks/firefox-esr-$FF_VERSION.rb"
+  - "brew cask uninstall firefox-esr-$FF_VERSION"
 
