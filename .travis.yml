@@ -34,7 +34,7 @@ env:
   - FF_VERSION=45-0-2
 
 script:
-  - "brew audit Casks/firefox-esr-$FF_VERSION.rb"
-  - "brew style Casks/firefox-esr-$FF_VERSION.rb"
+  - "brew cask audit Casks/firefox-esr-$FF_VERSION.rb"
+  - "brew cask style Casks/firefox-esr-$FF_VERSION.rb"
   - "brew cask install Casks/firefox-esr-$FF_VERSION.rb"
   - "brew cask uninstall firefox-esr-$FF_VERSION"
