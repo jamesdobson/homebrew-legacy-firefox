@@ -22,12 +22,11 @@ cask 'firefox-esr-45-4-0' do
   end
 
   url "https://ftp.mozilla.org/pub/firefox/releases/#{version}esr/mac/#{language}/Firefox%20#{version}esr.dmg"
-  name 'Mozilla Firefox ESR'
   name 'Mozilla Firefox Extended Support Release'
+  name 'Mozilla Firefox ESR'
   homepage 'https://www.mozilla.org/firefox/organizations/'
-  license :mpl
 
-  app 'Firefox.app', target: "Firefox #{version}esr"
+  app 'Firefox.app', target: "Firefox #{version}esr.app"
 
   zap delete: [
                 '~/Library/Application Support/Firefox',
